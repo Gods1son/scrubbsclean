@@ -1,0 +1,23 @@
+=========== Awesomeone theme Instruction ==============
+
+1) Change site title and tagline.
+- Go to Appearance >> Customize >> Site title and tagline >> Change the site title and tagline.
+
+2) Change colors.
+- Go to Appearance  >> Customize >> Colors >> Change background color and theme color scheme.
+
+3) Change backgorund image for body.
+- Go to Appearance >> Customize >> Background >> change the background image for body.
+
+4) Navigation.
+- firs of all go to Appearance >> menu >> create navigation for primary menu and footer menu and go to Appearance >> Customize >> Navigation >> Select menu name from dropdown for each menu location.
+
+5) Static front page.
+- Go to Appearance >> Customize >> Static Page >> Select your page for display in front page. Selection of latest post will display blog post on front page.
+
+6) Slider settings.
+- Go to Appearance >> Customize >> Slider Settings >>  Add slider images, title, description and link.
+
+7) Footer Text.
+- Go to Appearance >> Customize >> Footer Text.
+

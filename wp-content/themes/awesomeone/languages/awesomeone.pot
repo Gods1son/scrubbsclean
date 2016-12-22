@@ -1,0 +1,409 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AwesomeOne\n"
+"POT-Creation-Date: 2015-12-31 12:09+0530\n"
+"PO-Revision-Date: 2015-12-31 12:09+0530\n"
+"Last-Translator: \n"
+"Language-Team: Flythemes Team <support@flythemes.net>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+
+#: 404.php:14
+msgid "<strong>404</strong> Not Found"
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"Looks like you have taken a wrong turn.....<br />Don't worry... it happens "
+"to the best of us."
+msgstr ""
+
+#: archive.php:30
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:38
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:41
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:44
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:47
+msgid "Asides"
+msgstr ""
+
+#: archive.php:50
+msgid "Images"
+msgstr ""
+
+#: archive.php:53
+msgid "Videos"
+msgstr ""
+
+#: archive.php:56
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:59
+msgid "Links"
+msgstr ""
+
+#: archive.php:62
+#: sidebar-main.php:15
+#: sidebar.php:15
+msgid "Archives"
+msgstr ""
+
+#: comments.php:36
+#: comments.php:56
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:37
+#: comments.php:57
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:38
+#: comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: content-page.php:18
+#: content-single.php:29
+#: content.php:37
+#: image.php:59
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:23
+#: content-single.php:41
+#: content.php:71
+#: image.php:33
+#: image.php:65
+#: inc/template-tags.php:70
+#: inc/template-tags.php:89
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:14
+#: content.php:12
+msgid "By"
+msgstr ""
+
+#: content-single.php:34
+#: content.php:15
+#: content.php:48
+#: content.php:58
+msgid ", "
+msgstr ""
+
+#: content.php:30
+msgid "Read More &raquo;"
+msgstr ""
+
+#: content.php:34
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: content.php:62
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: content.php:68
+msgid "Leave a comment"
+msgstr ""
+
+#: content.php:68
+msgid "1 Comment"
+msgstr ""
+
+#: content.php:68
+msgid "% Comments"
+msgstr ""
+
+#: functions.php:32
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:33
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:46
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:47
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: functions.php:56
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:57
+msgid "Appears on page sidebar"
+msgstr ""
+
+#: functions.php:66
+msgid "Header Widget"
+msgstr ""
+
+#: functions.php:67
+msgid "Appears on header of the page"
+msgstr ""
+
+#: header.php:33
+msgid "Menu"
+msgstr ""
+
+#: header.php:84
+msgid "Slide Title "
+msgstr ""
+
+#: header.php:87
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae est at "
+"dolor auctor faucibus. Aenean hendrerit lorem eget nisi vulputate, vitae "
+"fringilla ligula dignissim. Phasellus feugiat quam efficitur Lorem ipsum "
+"dolor sit amet, consectetur adipiscing elit. Fusce vitae est at dolor auctor "
+"faucibus. Aenean hendrerit lorem eget nisi vulputate, vitae fringilla ligula "
+"dignissim. Phasellus feugiat quam efficitur"
+msgstr ""
+
+#: header.php:90
+msgid "Learn More"
+msgstr ""
+
+#: header.php:94
+msgid "Purchase Now"
+msgstr ""
+
+#: image.php:23
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a "
+"href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: image.php:38
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: image.php:39
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: search.php:15
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar-main.php:21
+#: sidebar.php:21
+msgid "Meta"
+msgstr ""
+
+#: inc/customizer.php:55
+msgid "Logo (PRO Version)"
+msgstr ""
+
+#: inc/customizer.php:57
+msgid "<strong>Logo settings available in</strong>"
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "Background Opacity (PRO Version)"
+msgstr ""
+
+#: inc/customizer.php:75
+msgid "<strong>Background opacity available in</strong>"
+msgstr ""
+
+#: inc/customizer.php:103
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:104
+msgid "<strong>More color options in</strong>"
+msgstr ""
+
+#: inc/customizer.php:111
+msgid "Social Links"
+msgstr ""
+
+#: inc/customizer.php:118
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer.php:119
+msgid ""
+"Add slider images here. <br><strong>More slider settings available in</"
+"strong>"
+msgstr ""
+
+#: inc/customizer.php:128
+msgid "Check this to hide purchase button"
+msgstr ""
+
+#: inc/customizer.php:145
+msgid "Slide Image 1 (1440x700)"
+msgstr ""
+
+#: inc/customizer.php:158
+msgid "Slide Title 1"
+msgstr ""
+
+#: inc/customizer.php:173
+msgid "Slide Description 1"
+msgstr ""
+
+#: inc/customizer.php:186
+msgid "Slide Link 1"
+msgstr ""
+
+#: inc/customizer.php:202
+msgid "Slide Image 2 (1440x700)"
+msgstr ""
+
+#: inc/customizer.php:215
+msgid "Slide Title 2"
+msgstr ""
+
+#: inc/customizer.php:230
+msgid "Slide Description 2"
+msgstr ""
+
+#: inc/customizer.php:243
+msgid "Slide Link 2"
+msgstr ""
+
+#: inc/customizer.php:259
+msgid "Slide Image 3 (1440x700)"
+msgstr ""
+
+#: inc/customizer.php:272
+msgid "Slide Title 3"
+msgstr ""
+
+#: inc/customizer.php:287
+msgid "Slide Description 3"
+msgstr ""
+
+#: inc/customizer.php:300
+msgid "Slide Link 3"
+msgstr ""
+
+#: inc/customizer.php:306
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer.php:307
+msgid "Add some text for footer like copyright etc."
+msgstr ""
+
+#: inc/customizer.php:319
+msgid "To remove credit link upgrade to pro"
+msgstr ""
+
+#: inc/customizer.php:327
+msgid "Layout Settings (PRO Version)"
+msgstr ""
+
+#: inc/customizer.php:329
+msgid "<strong>Layout Settings available in</strong>"
+msgstr ""
+
+#: inc/customizer.php:348
+msgid "Fonts Settings (PRO Version)"
+msgstr ""
+
+#: inc/customizer.php:350
+msgid "<strong>Font Settings available in</strong>"
+msgstr ""
+
+#: inc/customizer.php:369
+msgid "Documentation &amp; Support"
+msgstr ""
+
+#: inc/customizer.php:371
+msgid "For documentation and support check this link :"
+msgstr ""
+
+#: inc/template-tags.php:33
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:43
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:47
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:70
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:93
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:184
+#, php-format
+msgid ""
+"<span class=\"posted-on\">Published %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""

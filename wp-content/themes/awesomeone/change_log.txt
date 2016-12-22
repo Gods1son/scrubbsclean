@@ -1,0 +1,33 @@
+Version 1.0
+i) Intial version Release
+
+Version 1.1
+i) Resolved issues as asked by reviewer.
+
+Version 1.2
+i) Resolved sublevel menu layout in tablet resolution.
+
+Version 1.2.1
+i) Change readme file from html to text file and resolve footer text issue.
+
+Version 1.2.2
+i) Removed unused translation function from template-tag.php file.
+
+Version 1.2.3
+i) Resolved slider images issue and added theme instructions file.
+
+
+Version 1.2.4
+i) Added option for hide purchase button and documentation changed.
+
+Version 1.2.5
+i) Theme screenshot changed.
+
+Version 1.2.6
+i) Added author name function in blog and update translation file.
+
+Version 1.2.7
+i) Remove error from post comments.
+
+Version 1.2.8
+i) Added field for purchase button link.

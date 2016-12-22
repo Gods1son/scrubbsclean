@@ -1,0 +1,212 @@
+/*
+Theme Name: AwesomeOne
+Theme URI: http://flythemes.net/wordpress-themes/awesomeone-corporate-wordpress-theme/
+Author: Flythemes
+Author URI: http://flythemes.net
+Description: AwesomeOne Pro theme is responsive corporate WordPress theme which can useful for multipurpose industries. This theme is responsive and compatible with latest version of WordPress. This theme can also be useful for business, blogging, photography, magazine, religious, portfolio, counselling, restro etc. This theme has multiple features like color changing option, font typography, slider settings, multiple section and many more. This theme is very to use for non coders. This theme has created with the HTML5 and CSS3, AwesomeOne theme is cross borwser compatible with iphone and ipad and runs very smoothly. this theme is comaptible with plugins like woocommerce, contact form 7, jetpack etc. This is translation ready theme it can be translated in any language.  Check demo at: http://flythemes.net/demo/awesomeone/
+
+Version: 1.2.8
+License: GNU General Public License
+License URI: license.txt
+Text Domain: awesomeone
+Tags: gray, black, dark, one-column, two-columns, right-sidebar, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, photoblogging
+
+AwesomeOne WordPress Theme has been created by Flythemes(flythemes.net), 2015.
+AwesomeOne WordPress Theme is released under the terms of GNU GPL
+*/
+
+
+*{ margin:0; padding:0; outline:none;}
+body{ margin:0; padding:0; -ms-word-wrap:break-word; word-wrap:break-word; background-color:#fff; position:relative; font:12px/22px arial; color:#666666;}
+img{ margin:0; padding:0; border:none; max-width:100%; height:auto; }
+section img{max-width:100%;}
+h1,h2,h3,h4,h5,h6{ margin:0; padding:0 0 5px;}
+p{ margin:0; padding:0;}
+a{ text-decoration:none; color:#0fa5d9;}
+a:hover{ text-decoration:none; color:#666;}
+ul{ margin:0 0 0 15px; padding:0;}
+.clear{ clear:both;}
+.middle-align{ margin:0 auto; padding:0;}
+.wp-caption{ margin:0; padding:0; font-size:13px; max-width:100%;}
+.wp-caption-text{ margin:0; padding:0;}
+.sticky{ margin:0; padding:0;}
+.gallery-caption{ margin:0; padding:0;}
+.alignleft, img.alignleft {display: inline; float: left; margin-right:45px; margin-top:4px; margin-bottom:20px; padding:0; }
+.alignright, img.alignright { display: inline; float: right; }
+.aligncenter, img.aligncenter { clear: both; display: block; margin-left: auto; margin-right: auto; margin-top:0; }
+.comment-list .comment-content ul { list-style:none; margin-left:15px;}
+.comment-list .comment-content ul li{margin:5px;}
+.main-container ol{list-style-position:outside; margin-left:20px;}
+.main-container ol li{margin:5px 0;}
+.screen-reader-text { clip: rect(1px, 1px, 1px, 1px); position: absolute !important; height: 1px; width: 1px; overflow: hidden;}
+.toggleMenu{display:none;}
+.bypostauthor{ margin:0; padding:0;}
+section{ padding:70px 0; position:relative;}
+h2.section-title {font-weight:700; padding:0 0 15px 0; text-align:center; text-transform:uppercase; border-bottom:2px solid; display:table; margin-bottom:50px;}
+#slider{ width:100%; margin:0; padding:0; position:relative;}
+#slider .top-bar{ margin:0; padding:16px 0 20px; position:relative; text-align:center;}
+#slider .top-bar h2{font-weight:900; padding:15px 0 20px 0; text-align:center; text-transform:uppercase; line-height:55px; border-radius:5px 5px 0 0; font-size:50px; font-family:'Roboto Condensed'; background-color:rgba(0,0,0,0.5);}
+#slider .top-bar p{ color:#ffffff; font-weight:400; margin:0 0 10px 0; line-height:24px; text-align:center; padding-bottom:15px; border-radius:0 0 5px 5px; font-family:'Roboto'; font-size:20px; background-color:rgba(0,0,0,0.5);}
+
+
+a.read-more, .common_btn{ display:inline-block; font:400 16px 'Roboto Condensed', sans-serif; padding:10px 30px; margin-top:21px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; -o-border-radius:4px; -ms-border-radius:4px; margin-right:15px; color:#ffffff;}
+.common_btn{ background-color:#1f586b; padding:8px 30px;  margin-top:30px; border:2px solid #fff; }
+
+.main-container{margin:0; padding:0;}
+.header.fixed{position:fixed !important; top:0 !important; margin:0; padding:15px 0; z-index:99;}
+.header .header-inner{ margin:0 auto; padding:0; position:relative; width:1160px;}
+.header .header-inner .logo{margin:0; padding:0; }
+.header .header-inner .logo h1{ font-weight:700; text-transform:uppercase; padding:0; font-family:'Roboto Condensed'; font-size:30px; }
+.header .header-inner .logo a{ color:#ffffff;}
+.header .header-inner .logo span{ font-size:12px; color:#ffffff; font-family:arial;}
+.container{ width:1160px; margin:0 auto; padding:0; position:relative;}
+.toggle{display:none;}
+.header{position:absolute; z-index:999; width:100%;  height:auto; padding:12px 0; background-color:rgba(0,0,0,0.6);}
+.header .header-inner .nav{ margin:0; padding:0; text-align:right; float:right;}
+.header .header-inner .nav ul { float:right; margin:5px 0 0; padding:0; font-family:'Roboto Condensed', sans-serif; font-weight:400; font-size:15px;}
+.header .header-inner .nav ul li{ display:inline-block; margin:0; text-transform:uppercase; position:relative;}
+.header .header-inner .nav ul li a{ color:#ffffff; padding:5px 10px; display:block;}
+.header .header-inner .nav ul li a:hover{color:#0fa5d9;}
+@media screen and (min-width:720px){
+.header .header-inner .nav ul li ul{display:none; z-index:2;}
+.header .header-inner .nav ul li:hover > ul{display:block; background:#000000; width:200px; position:absolute; top:20px; left:0; text-align:left;}
+.header .header-inner .nav ul li:hover > ul li{ display:block;}
+.header .header-inner .nav ul li:hover ul li ul{display:none;}
+.header .header-inner .nav ul li:hover ul li:hover > ul{display:block; position:absolute; left:200px; top:22px;}
+.header .header-inner .logo{float:left; margin-top:8px; }
+}
+.header-widget{ margin:0; padding:0; clear:right; color:#ffffff; text-align:right;}
+.header-widget h4.header-title{ font-size:18px; margin:0; padding:0; color:#ffffff;}
+.header-widget li{ display:inline; border-left:1px solid #f1f1f1; padding-left:5px;}
+
+
+
+/** Blog post css **
+-----------------------------------------------------------------*/
+section#works{ padding-bottom:0;}
+.blogposts { width:31.6%; margin:0 2% 2% 0; display:inline-block; visibility:hidden; position:relative;}
+.blogposts h2 { color:#302f2f; font-weight:normal; font-size:17px; text-transform:uppercase;}
+.blogposts h2 a {color:#302f2f;}
+.cat_comments{ color: #ffffff; margin-top:-55px; position:relative; z-index:999;  margin-bottom: 25px; opacity: 0.8;  padding: 12px 15px;}
+.cat_comments .cat, .cat_comments .comnt { height: 26px; line-height: 24px; padding: 0 0 0 35px;}
+.cat_comments .cat{background: url(images/icon_cat.png) no-repeat  left top ; float: left; width:56%;}
+.cat_comments .comnt { background: url(images/icon_comments.png) no-repeat left top ; float: right;}
+.cat_comments a { color: #fff;}
+.lastcols { margin-right:0 !important;}
+
+.see-all-button {  border:1px solid #444; display:table; font-size:16px; font-weight:700; margin:50px auto 0; padding:10px 20px; text-align:center; text-transform:uppercase; transition: all 0.3s ease 0s; color:#f0efef;}
+.see-all-button:hover { background:#ff8a00; border:#ff8a00 solid 1px; color:#fff;}
+/*------------------------------------------- LATEST NEWS END -------------------------------------------*/
+
+/* --------- Pages ------- */
+.content-area{ width:1160px; margin:0 auto; padding:50px 0;}
+.site-main{ width:800px; margin:0; padding:0; float:left;}
+#sitefull{ width:auto !important;}
+#nosidebar{ width:80%; margin:0 auto; float:none; text-align:center;}
+#sidebar{ width:270px; margin:0; padding:0; float:right;}
+
+/*copyright css*/
+.copyright-wrapper { position:relative; padding:20px 0; background-color:#2e2e2e; color:#ffffff;}
+.copyright-wrapper .inner{width:1170px; margin: auto;}
+.footer-menu{ float:left; margin:0; padding:0; color:#ffffff;}
+.copyright ul li, .footer-menu ul li{ display:inline-block; margin:0; padding:0 10px 0 0;}
+.footer-menu ul ul{ display:none;}
+.copyright { float:right; margin:auto; text-align:right;}
+
+
+/* ------ Contact Form ------ */
+.wpcf7{ margin:0; padding:0; font:400 15px 'Roboto Condensed', sans-serif; color:#ffffff;}
+.wpcf7 form{ margin:0; padding:0;}
+.wpcf7 form span.last{ float:none !important;}
+.wpcf7 form input[type="text"], .wpcf7 form input[type="email"], .wpcf7 form input[type="tel"], .wpcf7 form input[type="url"], .wpcf7 form input[type="date"], .wpcf7 form select, .leftdiv input[type="text"], .leftdiv input [type="url"], .leftdiv input[type="email"], .leftdiv input[type="tel"], .wpcf7 form textarea, .rightdiv textarea{ width:94%; background-color:#f8f8f8; border:1px solid #e6e5e5; padding:10px; margin-top:15px; font:400 14px 'Roboto Condensed', sans-serif; color:#777777;}
+.wpcf7 form textarea, .rightdiv textarea{height:132px;}
+.wpcf7 form input[type="checkbox"], .wpcf7 form input[type="radio"], .wpcf7 form input[type="file"]{ margin-top:10px; padding:0;}
+span.wpcf7-list-item{ margin:0 15px 0 0 !important;}
+.wpcf7 form input[type="submit"], #contact input[type="submit"]{font:400 15px 'Roboto Condensed', sans-serif; margin:25px 0 0 0; padding:5px 20px; border:none; color:#ffffff; border-radius:4px; -moz-border-radius:4px; -o-border-radius:4px; -webkit-border-radius:4px; cursor:pointer; background-color:#0fa5d9;}
+h1.entry-title, h1.page-title{padding-bottom:20px; font-size:30px; font-family:'Roboto Condensed'; font-weight:700; text-transform:uppercase;}
+article.tag-sticky-2{background:#f6f6f6; padding:10px;}
+article img{height:auto;}
+article p{margin:10px 0;}
+.post-date{display:inline;}
+.post-comment{display:inline;}
+.post-categories{display:inline;}
+.post-comment a, .post-categories a{ color:#666666;}
+.post-tags{display:inline;}
+form.search-form{margin-bottom:15px;}
+input.search-field, .post-password-form input[type=password]{border:1px #eee solid; padding:4px;}
+input.search-submit, .post-password-form input[type=submit]{border:none; color:#ffffff; padding:4px 10px; cursor:pointer;}
+aside select{ width:100%; border:1px solid #cccccc; padding:5px 0;}
+aside.widget{margin-bottom:30px;}
+aside.widget ul{ list-style:disc; margin-left:13px;}
+.webicon{font-size:20px;}
+#sidebar ul li{margin:5px 0;}
+#sidebar ul li a{ color:#666666;}
+.comment-list, ol.comment-list{list-style:none; margin-left:0; margin-top:20px; margin-bottom:20px;}
+.comment-list ul, ol.comment-list ul{list-style:none;}
+.comment-list li.comment{margin-top:20px;}
+.comment-list .comment-content h1, .comment-list .comment-content h2, .comment-list .comment-content h3, .comment-list .comment-content h4, .comment-list .comment-content h5, .comment-list .comment-content h6{margin-top:15px;}
+h3.widget-title{ font-size:18px; border-bottom:1px solid #cccccc; padding-bottom:15px; margin-bottom:15px;}
+.blog-post-repeat{ border-bottom:1px solid #cccccc; margin-bottom:40px;}
+
+/* woocommerce */
+a.added_to_cart{background:#e1472f; padding:5px; display:inline-block; color:#fff; line-height:1;}
+a.added_to_cart:hover{background:#000000;}
+a.button.added:before{content:'' !important;}
+#bbpress-forums ul li{padding:0;}
+#subscription-toggle a.subscription-toggle{padding:5px 10px; display:inline-block; color:#e1472f; margin-top:4px;}
+textarea.wp-editor-area{border:1px #ccc solid;}
+.woocommerce input[type=text], .woocommerce textarea{border:1px #ccc solid; padding:4px;}
+form.woocommerce-ordering select{ padding:5px; color:#777777;}
+.woocommerce table.shop_table th, .woocommerce-page table.shop_table th{ font-family:'Roboto Condensed',san-serif; color:#ff8a00;}
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price{ color:inherit !important;}
+h1.product_title, p.price{ margin-bottom:10px;}
+a.blogthumbs img{ width:100%;}
+
+.hdr_buy_pro{font-size:14px; font-weight:bold; line-height:18px;}
+.hdr_buy_pro a{color:#fff; background:#ff8a00; padding:3px 10px;}
+.hdr_buy_pro a:hover{background:#fff; color:#ff8a00;}
+@media screen and (min-width:940px){
+	.hdr_buy_pro{position:absolute; top:0; right:0; }
+}
+@media screen and (min-width:720px) and (max-width:939px){
+	.hdr_buy_pro{position:absolute; top:28px; right:290px; }
+}
+@media screen and (max-width:719px){
+	.hdr_buy_pro{display:block; text-align:center; padding-bottom:10px;}
+}
+
+.fa::before, fa::after{ display:table-cell; vertical-align:middle;}
+
+/* ------------------ default styles ------------------ */
+.postmeta, .entry-meta{padding:5px 0; color:#999; clear:both;}
+.postmeta a, .entry-meta a{color:#999;}
+.postmeta a:hover, .entry-meta a:hover{color:#c64a4b;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.breadcrumbs{padding:10px 0; margin-bottom:0;}
+ol.commentlist{list-style:none;}
+#commentform p{margin:5px 0;}
+#commentform label{display:block;}
+#commentform input#email, #commentform input#url, #commentform input#author, #commentform textarea, #commentform input#eazycfc_captcha{max-width:96%; border:1px #ccc solid; padding:5px 2%;}
+#commentform input#submit{font:400 15px 'Roboto Condensed', sans-serif;  border:none; padding:5px 10px; color:#fff; display:inline-block;}
+#commentform input#submit:hover{ cursor:pointer;}
+.form-allowed-tags{display:none;}
+ul.errormsg{background:#ffe4e4;}
+ul.errormsg li{padding:5px;}
+.entry-content table, .comment-body table{ border-collapse:collapse; margin:10px 0;}
+.entry-content table td, .entry-content table th, .comment-body table td, .comment-body table th{padding:10px 5px; text-align:left;}
+.entry-content table th, .comment-body table th{color:#676767; font:normal 18px Oswald; border-bottom:1px #888 solid;}
+.entry-content table td, .comment-body table td{border-bottom:1px #ccc solid;}
+.fvch-codeblock:hover .comment-form-url{display:block !important;}
+
+.pagination{display:table; clear:both;}
+.pagination ul{list-style:none; margin:20px 0;}
+.pagination ul li{display:inline; float:left; margin-right:5px;}
+.pagination ul li span, .pagination ul li a{background:#333333; color:#ffffff; padding:5px 10px; display:inline-block;}
+.pagination ul li .current, .pagination ul li a:hover{background:#ff8a00;}
+
+/*------------------------------------------- COMMENT STYLES -------------------------------------------*/
+.comment-author.vcard{display:inline-block; margin-right:15px; float:left;}
+.comment-list ul.children li.comment{background-image:none; padding-left:5px;}
+.hrule{border-top:1px #dbdbdb solid; margin-top:15px; padding-bottom:15px;}
